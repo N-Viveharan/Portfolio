@@ -62,3 +62,6 @@ body {
   overflow-x: hidden;
   line-height: 1.6;
 }
+.app {
+  min-height: 100vh;
+}
