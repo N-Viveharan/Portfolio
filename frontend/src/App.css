@@ -1,3 +1,4 @@
+/* ===== GOOGLE FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 /* ===== CSS VARIABLES ===== */
@@ -62,13 +63,17 @@ body {
   overflow-x: hidden;
   line-height: 1.6;
 }
+
 .app {
   min-height: 100vh;
 }
+
 /* ===== SCROLLBAR ===== */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }
 ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
+
+/* ===== SECTION BASE ===== */
 section {
   padding: 100px 0;
 }
@@ -78,6 +83,8 @@ section {
   margin: 0 auto;
   padding: 0 40px;
 }
+
+/* ===== SECTION HEADING ===== */
 .section-tag {
   display: inline-flex;
   align-items: center;
@@ -112,6 +119,7 @@ section {
   max-width: 520px;
   line-height: 1.7;
 }
+
 /* ===== BUTTONS ===== */
 .btn-primary {
   display: inline-flex;
@@ -170,33 +178,42 @@ section {
   color: var(--accent);
   background: var(--accent-glow);
 }
+
+/* ===== GRADIENT TEXT ===== */
 .gradient-text {
   background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* ===== FADE-IN ANIMATION ===== */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 @keyframes fadeInLeft {
   from { opacity: 0; transform: translateX(-24px); }
   to { opacity: 1; transform: translateX(0); }
 }
+
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-12px); }
 }
+
 @keyframes pulse-ring {
   0% { transform: scale(0.9); opacity: 0.8; }
   50% { transform: scale(1.1); opacity: 0.4; }
   100% { transform: scale(0.9); opacity: 0.8; }
 }
+
 @keyframes shimmer {
   0% { background-position: -200% center; }
   100% { background-position: 200% center; }
 }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .container { padding: 0 24px; }
