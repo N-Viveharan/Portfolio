@@ -9,3 +9,26 @@ import HireMe from "./components/HireMe";
 import Footer from "./components/Footer";
 import "./App.css";
 
+export default function App() {
+  const [darkMode, setDarkMode] = useState(true);
+  const [activeSection, setActiveSection] = useState("home");
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
+  }, [darkMode]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["home", "about", "skills", "projects", "contact", "hire"];
+      const scrollPos = window.scrollY + 80;
+      for (const id of sections) {
+        const el = document.getElementById(id);
+        if (el && scrollPos >= el.offsetTop && scrollPos < el.offsetTop + el.offsetHeight) {
+          setActiveSection(id);
+          break;
+        }
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
