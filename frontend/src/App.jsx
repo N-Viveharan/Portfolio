@@ -32,3 +32,19 @@ export default function App() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  return (
+    <div className="app">
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} activeSection={activeSection} />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <HireMe />
+      </main>
+      <Footer />
+    </div>
+  );
+}
