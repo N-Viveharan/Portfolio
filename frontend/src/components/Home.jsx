@@ -20,7 +20,7 @@ export default function Home() {
           </div>
 
           <h1 className="home-title">
-            Hi, I'm <span className="gradient-text">Alex Johnson</span>
+            Hi, I'm <span className="gradient-text">Nagalingam Viveharan</span>
             <br />
             <span className="home-title-sub">Full Stack MERN Developer</span>
           </h1>
