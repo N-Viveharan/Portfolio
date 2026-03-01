@@ -23,6 +23,9 @@
   --navbar-bg: rgba(10, 10, 15, 0.85);
 }
 
+
+
+
 :root[data-theme="light"] {
   --bg-primary: #f5f5fa;
   --bg-secondary: #ebebf5;
