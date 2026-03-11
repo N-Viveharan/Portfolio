@@ -26,8 +26,8 @@ export default function Home() {
           </h1>
 
           <p className="home-desc">
-            I craft high-performance web applications with MongoDB, Express, React & Node.
-            From elegant UIs to robust APIs — I build digital experiences that <em>scale</em>.
+            Passionate MERN Stack Developer skilled in MongoDB, Express.js, React, and Node.js, building scalable 
+            web applications with responsive design, secure APIs, and efficient <em>full-stack solutions.</em>.
           </p>
 
           <div className="home-badges">
@@ -48,20 +48,14 @@ export default function Home() {
           </div>
 
           <div className="home-stats">
-            <div className="stat-item">
-              <span className="stat-number">3+</span>
-              <span className="stat-label">Years Exp</span>
-            </div>
+           
             <div className="stat-divider"></div>
             <div className="stat-item">
-              <span className="stat-number">30+</span>
+              <span className="stat-number">10+</span>
               <span className="stat-label">Projects Built</span>
             </div>
             <div className="stat-divider"></div>
-            <div className="stat-item">
-              <span className="stat-number">15+</span>
-              <span className="stat-label">Clients Served</span>
-            </div>
+            
           </div>
         </div>
 

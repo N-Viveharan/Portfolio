@@ -30,7 +30,7 @@ export default function Navbar({ darkMode, setDarkMode, activeSection }) {
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollTo("home")}>
           <span className="logo-bracket">&lt;</span>
-          <span className="logo-name">Alex<span className="logo-dot">.</span>Dev</span>
+          <span className="logo-name">Vive<span className="logo-dot">.</span>Dev</span>
           <span className="logo-bracket">/&gt;</span>
         </div>
 
