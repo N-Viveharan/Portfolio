@@ -9,22 +9,22 @@ const highlights = [
 
 const timeline = [
   {
-    year: "2024",
-    role: "Senior Full Stack Developer",
-    company: "TechFlow Inc.",
-    desc: "Led development of microservices architecture serving 100k+ users, built real-time dashboards with React & WebSockets.",
+    year: "2026",
+    role: "MERN Stack Developer (Student Projects)",
+    company: "",
+    desc: "Developing full-stack web applications using MongoDB, Express.js, React, and Node.js. Built responsive UIs and RESTful APIs while improving backend performance and scalability.",
+  },
+  {
+    year: "2024-2025",
+    role: "Full Stack Development Learning",
+    company: "",
+    desc: "Started learning the MERN stack, building multiple practice projects including CRUD applications, authentication systems, and API integrations.",
   },
   {
     year: "2023",
-    role: "Full Stack Developer",
-    company: "DevCraft Agency",
-    desc: "Built 10+ client projects end-to-end using MERN stack. Reduced API response time by 40% through MongoDB optimization.",
-  },
-  {
-    year: "2022",
-    role: "Junior Developer",
-    company: "StartupNest",
-    desc: "Developed RESTful APIs with Express.js, managed MongoDB databases, contributed to React component library.",
+    role: "Programming Foundations",
+    company: "",
+    desc: "Began my journey in Software Engineering, learning core programming concepts, web development fundamentals, and database management at university. 🚀",
   },
 ];
 
@@ -36,19 +36,17 @@ export default function About() {
           <div className="about-left">
             <span className="section-tag">About Me</span>
             <h2 className="section-title">
-              Building the web,<br />
-              <span className="gradient-text">one stack at a time</span>
+              Building the Web,<br />
+              <span className="gradient-text">One Stack at a Time</span>
             </h2>
             <p className="about-text">
-              I'm a passionate Full Stack Developer specializing in the MERN ecosystem.
-              I love transforming complex problems into elegant, performant solutions —
-              whether it's architecting a scalable Node.js backend or crafting pixel-perfect
-              React interfaces.
+              I'm a passionate Full Stack Developer and undergraduate Software Engineering student specializing in the MERN ecosystem. 
+              I love transforming complex problems into elegant, performant solutions — whether it's building scalable Node.
+              js backends or crafting clean, responsive React interfaces.
             </p>
             <p className="about-text">
-              With 3+ years of hands-on experience, I've helped startups and enterprises
-              alike ship production-grade applications. Clean code, thoughtful architecture,
-              and a relentless focus on user experience drive everything I build.
+              As a student developer, I focus on writing clean code, learning modern technologies, 
+              and building real-world applications that improve my problem-solving skills and create meaningful user experiences. 🚀
             </p>
 
             <div className="highlights-grid">
