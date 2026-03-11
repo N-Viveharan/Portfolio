@@ -57,6 +57,12 @@
   box-shadow: var(--shadow-accent);
 }
 
+.highlight-link {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
 .highlight-icon {
   font-size: 1.4rem;
   flex-shrink: 0;

@@ -2,7 +2,7 @@ import "./About.css";
 
 const highlights = [
   { icon: "🎓", label: "Education", value: "B.Sc. Computer Science" },
-  { icon: "📍", label: "Location", value: "San Francisco, CA" },
+  { icon: "📍", label: "Location", value: "Main St, Cheddipalayam, South Batticaloa" },
   { icon: "💼", label: "Experience", value: "3+ Years Full Stack" },
   { icon: "🌐", label: "Focus", value: "MERN Stack Development" },
 ];
@@ -50,15 +50,45 @@ export default function About() {
             </p>
 
             <div className="highlights-grid">
-              {highlights.map(({ icon, label, value }) => (
-                <div key={label} className="highlight-card">
-                  <span className="highlight-icon">{icon}</span>
-                  <div>
-                    <span className="highlight-label">{label}</span>
-                    <span className="highlight-value">{value}</span>
+              {highlights.map(({ icon, label, value }) => {
+                const isLocation = label === "Location";
+                const locationLink =
+                  "https://www.google.com/maps?q=Main+Street+Cheddipalayam+South+Batticaloa";
+
+                const card = (
+                  <div className="highlight-card">
+                    <span className="highlight-icon">{icon}</span>
+                    <div>
+                      <span className="highlight-label">{label}</span>
+                      <span className="highlight-value">{value}</span>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+
+                return isLocation ? (
+                  <a
+                    key={label}
+                    className="highlight-card highlight-link"
+                    href={locationLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="highlight-icon">{icon}</span>
+                    <div>
+                      <span className="highlight-label">{label}</span>
+                      <span className="highlight-value">{value}</span>
+                    </div>
+                  </a>
+                ) : (
+                  <div key={label} className="highlight-card">
+                    <span className="highlight-icon">{icon}</span>
+                    <div>
+                      <span className="highlight-label">{label}</span>
+                      <span className="highlight-value">{value}</span>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
 
             <div className="about-actions">
