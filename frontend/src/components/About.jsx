@@ -1,10 +1,9 @@
 import "./About.css";
 
 const highlights = [
-  { icon: "🎓", label: "Education", value: "B.Sc. Computer Science" },
+  { icon: "🎓", label: "Education", value: "BSc (Hons) Software Engineering – Undergraduate " },
   { icon: "📍", label: "Location", value: "Main St, Cheddipalayam, South Batticaloa" },
-  { icon: "💼", label: "Experience", value: "3+ Years Full Stack" },
-  { icon: "🌐", label: "Focus", value: "MERN Stack Development" },
+  { icon: "🌐", label: "Focus", value: "MERN Stack Development (MongoDB, Express.js, React.js, Node.js)" },
 ];
 
 const timeline = [
