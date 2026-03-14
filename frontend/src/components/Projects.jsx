@@ -10,7 +10,7 @@ const projects = [
     desc: "A full-featured e-commerce platform with real-time inventory, Stripe payments, admin dashboard, and JWT authentication. Supports 10k+ SKUs.",
     gradient: "linear-gradient(135deg, #6366f1, #22d3ee)",
     icon: "🛒",
-    github: "https://github.com",
+    github: "https://github.com/N-Viveharan/myProject-8",
     live: "https://example.com",
     featured: true,
   },
