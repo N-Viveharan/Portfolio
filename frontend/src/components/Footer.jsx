@@ -13,6 +13,8 @@ export default function Footer() {
     el?.scrollIntoView({ behavior: "smooth" });
   };
 
+
+  
   return (
     <footer className="footer">
       <div className="container">
