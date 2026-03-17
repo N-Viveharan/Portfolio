@@ -20,6 +20,8 @@ export default function Navbar({ darkMode, setDarkMode, activeSection }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  
+
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setMenuOpen(false);
