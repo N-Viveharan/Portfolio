@@ -1,31 +1,6 @@
 import "./HireMe.css";
 
-const services = [
-  {
-    icon: "🏗️",
-    title: "Full Stack Development",
-    desc: "End-to-end MERN applications — from database schema to responsive UI.",
-    price: "From $3,000",
-  },
-  {
-    icon: "🔌",
-    title: "API Development",
-    desc: "RESTful & GraphQL APIs with authentication, caching, and documentation.",
-    price: "From $1,500",
-  },
-  {
-    icon: "⚛️",
-    title: "React Development",
-    desc: "Pixel-perfect, performant React apps with state management and testing.",
-    price: "From $1,200",
-  },
-  {
-    icon: "🚀",
-    title: "Technical Consulting",
-    desc: "Architecture reviews, code audits, and performance optimization sessions.",
-    price: "$150 / hr",
-  },
-];
+
 
 const reasons = [
   { icon: "⚡", text: "Fast delivery without sacrificing quality" },
@@ -66,28 +41,7 @@ export default function HireMe() {
           </div>
         </div>
 
-        {/* SERVICES */}
-        <div className="hire-services-label">
-          <span className="section-tag">Services</span>
-          <h3 className="hire-services-title">What I Offer</h3>
-        </div>
-
-        <div className="services-grid">
-          {services.map(({ icon, title, desc, price }) => (
-            <div key={title} className="service-card">
-              <div className="service-top">
-                <span className="service-icon">{icon}</span>
-                <span className="service-price">{price}</span>
-              </div>
-              <h4 className="service-title">{title}</h4>
-              <p className="service-desc">{desc}</p>
-              <button className="service-btn" onClick={scrollToContact}>
-                Inquire
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </button>
-            </div>
-          ))}
-        </div>
+        
 
         {/* WHY ME */}
         <div className="why-me">
@@ -117,9 +71,7 @@ export default function HireMe() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
                 Start a Conversation
               </button>
-              <a href="mailto:alex@example.com" className="btn-secondary">
-                alex@example.com
-              </a>
+              
             </div>
           </div>
         </div>

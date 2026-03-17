@@ -5,27 +5,22 @@ const contactInfo = [
   {
     icon: "✉️",
     label: "Email",
-    value: "alex@example.com",
-    href: "mailto:alex@example.com",
+    value: "nagalingamviveharan2001@gmail.com",
+    href: "nagalingamviveharan2001@gmail.com",
   },
   {
     icon: "💼",
     label: "LinkedIn",
-    value: "linkedin.com/in/alexjohnson",
-    href: "https://linkedin.com",
+    value: "Nagalingam Viveharan",
+    href: "https://www.linkedin.com/in/nagalingam-viveharan-56ba51320/",
   },
   {
     icon: "🐙",
     label: "GitHub",
-    value: "github.com/alexjohnson",
-    href: "https://github.com",
+    value: "github.com/N-Viveharan",
+    href: "https://github.com/N-Viveharan",
   },
-  {
-    icon: "🌍",
-    label: "Portfolio",
-    value: "alexjohnson.dev",
-    href: "https://example.com",
-  },
+  
 ];
 
 export default function Contact() {
