@@ -46,34 +46,34 @@ const skillCategories = [
 
 const mernStack = [
   {
-    letter: "M",
-    name: "MongoDB",
-    desc: "NoSQL Database",
-    color: "#4ade80",
-    icon: "🍃",
+    letter: "N",
+    name: "Next.js",
+    desc: "React Framework",
+    color: "#000000",
+    icon: "▲",
   },
   {
     letter: "E",
     name: "Express.js",
-    desc: "Backend Framework",
+    desc: "Web Framework",
     color: "#6366f1",
     icon: "⚡",
   },
   {
     letter: "R",
     name: "React.js",
-    desc: "Frontend Library",
+    desc: "JavaScript Library",
     color: "#38bdf8",
     icon: "⚛️",
   },
   {
     letter: "N",
     name: "Node.js",
-    desc: "Runtime Environment",
+    desc: "JavaScript Runtime",
     color: "#22c55e",
     icon: "🟢",
   },
-];
+]
 
 export default function Skills() {
   return (
