@@ -1,6 +1,6 @@
 import "./Home.css";
-
-const techBadges = ["MongoDB", "Express.js", "React.js", "Node.js"];
+import vive from "../assets/vive2.png";
+const techBadges = ["MongoDB", "Express.js", "React.js", "Node.js","Next.js","JavaScript","HTML","CSS","Tailwind CSS"];
 
 export default function Home() {
   const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -22,12 +22,11 @@ export default function Home() {
           <h1 className="home-title">
             Hi, I'm <span className="gradient-text">Nagalingam Viveharan</span>
             <br />
-            <span className="home-title-sub">Full Stack MERN Developer</span>
+            <span className="home-title-sub">Full Stack Developer</span>
           </h1>
 
           <p className="home-desc">
-            Passionate MERN Stack Developer skilled in MongoDB, Express.js, React, and Node.js, building scalable 
-            web applications with responsive design, secure APIs, and efficient <em>full-stack solutions.</em>.
+            Passionate Full-Stack Developer with hands-on experience in building scalable web applications using modern technologies, focused on responsive design, secure APIs, and delivering efficient <em>full-stack solutions.</em>.
           </p>
 
           <div className="home-badges">
@@ -64,7 +63,9 @@ export default function Home() {
             <div className="avatar-ring avatar-ring-1"></div>
             <div className="avatar-ring avatar-ring-2"></div>
             <div className="avatar-card">
-              <div className="avatar-initials">AJ</div>
+              <div className="avatar-initials">
+                  <img src={vive} alt="" />
+              </div>
               <div className="avatar-glow"></div>
             </div>
             <div className="floating-chip chip-1">
