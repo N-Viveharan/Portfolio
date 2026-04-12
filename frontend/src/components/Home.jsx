@@ -69,16 +69,14 @@ export default function Home() {
               <div className="avatar-glow"></div>
             </div>
             <div className="floating-chip chip-1">
-              <span>⚡</span> React 18
+              <span>⚡</span> Next.js
             </div>
             <div className="floating-chip chip-2">
-              <span>🍃</span> MongoDB
+              <span>🍃</span> Express.js
             </div>
-            <div className="floating-chip chip-3">
-              <span>🖧</span> Node.js
-            </div>
+            
             <div className="floating-chip chip-4">
-              <span>🔥</span> Express
+              <span>🔥</span> React.js
             </div>
           </div>
         </div>
