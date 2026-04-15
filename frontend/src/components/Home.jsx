@@ -63,9 +63,29 @@ export default function Home() {
             <div className="avatar-ring avatar-ring-1"></div>
             <div className="avatar-ring avatar-ring-2"></div>
             <div className="avatar-card">
-              <div className="avatar-initials">
-                  <img src={vive} alt="" />
-              </div>
+             <div
+  className="avatar-initials"
+  style={{
+    width: "200px",
+    height: "200px",
+    borderRadius: "50%",
+    overflow: "hidden",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  }}
+>
+  <img
+    src={vive}
+    alt="profile"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      transform: "scale(1.1)", // 👈 zoom effect
+    }}
+  />
+</div>
               <div className="avatar-glow"></div>
             </div>
             <div className="floating-chip chip-1">
