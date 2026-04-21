@@ -19,6 +19,8 @@ const timeline = [
     company: "",
     desc: "Started learning the MERN stack, building multiple practice projects including CRUD applications, authentication systems, and API integrations.",
   },
+
+  
   {
     year: "2023",
     role: "Programming Foundations",
