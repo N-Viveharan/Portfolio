@@ -37,6 +37,8 @@ export default function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+  
   return (
     <div className="app">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} activeSection={activeSection} />
