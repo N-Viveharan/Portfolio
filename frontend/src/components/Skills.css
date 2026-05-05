@@ -70,7 +70,7 @@
   position: absolute;
   top: 14px;
   right: 18px;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   color: var(--mern-color);
@@ -87,7 +87,7 @@
 }
 
 .mern-name {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -159,7 +159,7 @@
 }
 
 .category-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -191,7 +191,7 @@
   font-size: 0.78rem;
   font-weight: 600;
   color: var(--cat-color);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 .skill-bar-track {

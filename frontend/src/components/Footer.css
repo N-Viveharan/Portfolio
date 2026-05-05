@@ -16,7 +16,7 @@
 
 /* BRAND */
 .footer-logo {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.4rem;
   font-weight: 800;
   color: var(--text-primary);
@@ -61,7 +61,7 @@
 
 /* NAV */
 .footer-nav-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -81,7 +81,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 0.875rem;
   color: var(--text-muted);
   padding: 0;

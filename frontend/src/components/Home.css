@@ -98,7 +98,7 @@
 }
 
 .home-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 800;
   line-height: 1.1;
@@ -174,7 +174,7 @@
 
 .stat-number {
   display: block;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.6rem;
   font-weight: 800;
   background: var(--gradient);
@@ -257,7 +257,7 @@
 }
 
 .avatar-initials {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 3.5rem;
   font-weight: 800;
   background: var(--gradient);

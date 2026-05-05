@@ -95,7 +95,7 @@
 
 /* RIGHT / TIMELINE */
 .timeline-heading {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -161,7 +161,7 @@
 
 
 .timeline-role {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text-primary);

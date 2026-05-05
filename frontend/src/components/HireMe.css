@@ -26,7 +26,7 @@
 }
 
 .hire-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 800;
   color: var(--text-primary);
@@ -67,7 +67,7 @@
 }
 
 .hire-services-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -118,7 +118,7 @@
 }
 
 .service-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -143,7 +143,7 @@
   border: 1.5px solid var(--border);
   border-radius: 10px;
   color: var(--text-secondary);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 0.82rem;
   font-weight: 500;
   cursor: pointer;
@@ -163,7 +163,7 @@
 }
 
 .why-me-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -244,7 +244,7 @@
 }
 
 .cta-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 2rem;
   font-weight: 800;
   color: var(--text-primary);
