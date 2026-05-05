@@ -92,7 +92,7 @@ export default function Skills() {
         {/* MERN Spotlight */}
         <div className="mern-spotlight">
           {mernStack.map(({ letter, name, desc, color, icon }) => (
-            <div key={letter} className="mern-card" style={{ "--mern-color": color }}>
+            <div key={name} className="mern-card" style={{ "--mern-color": color }}>
               <div className="mern-letter">{letter}</div>
               <span className="mern-icon">{icon}</span>
               <h3 className="mern-name">{name}</h3>
