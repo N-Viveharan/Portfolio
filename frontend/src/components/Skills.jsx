@@ -1,9 +1,10 @@
+import { Palette, Settings, Database, Wrench, Triangle, Zap, Atom, Server } from "lucide-react";
 import "./Skills.css";
 
 const skillCategories = [
   {
     title: "Frontend",
-    icon: "🎨",
+    icon: <Palette size={24} />,
     color: "#6366f1",
     skills: [
       { name: "React.js", level: 95 },
@@ -14,7 +15,7 @@ const skillCategories = [
   },
   {
     title: "Backend",
-    icon: "⚙️",
+    icon: <Settings size={24} />,
     color: "#22d3ee",
     skills: [
       { name: "Node.js", level: 93 },
@@ -25,7 +26,7 @@ const skillCategories = [
   },
   {
     title: "Database",
-    icon: "🗄️",
+    icon: <Database size={24} />,
     color: "#4ade80",
     skills: [
       { name: "MongoDB", level: 92 },
@@ -34,7 +35,7 @@ const skillCategories = [
   },
   {
     title: "DevOps & Tools",
-    icon: "🛠️",
+    icon: <Wrench size={24} />,
     color: "#f472b6",
     skills: [
       { name: "Git / GitHub", level: 94 },
@@ -50,28 +51,28 @@ const mernStack = [
     name: "Next.js",
     desc: "React Framework",
     color: "#000000",
-    icon: "▲",
+    icon: <Triangle size={24} fill="currentColor" />,
   },
   {
     letter: "E",
     name: "Express.js",
     desc: "Web Framework",
     color: "#6366f1",
-    icon: "⚡",
+    icon: <Zap size={24} fill="currentColor" />,
   },
   {
     letter: "R",
     name: "React.js",
     desc: "JavaScript Library",
     color: "#38bdf8",
-    icon: "⚛️",
+    icon: <Atom size={24} />,
   },
   {
     letter: "N",
     name: "Node.js",
     desc: "JavaScript Runtime",
     color: "#22c55e",
-    icon: "🟢",
+    icon: <Server size={24} />,
   },
 ]
 

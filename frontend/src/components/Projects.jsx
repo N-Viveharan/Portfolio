@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ShoppingCart, FileText, Code, Newspaper } from "lucide-react";
+import { Github } from "./BrandIcons";
 import "./Projects.css";
 
 const projects = [
@@ -9,7 +11,7 @@ const projects = [
     tags: ["Next.js", "Express.js", "MongoDB", "Stripe", "Clerk"],
     desc: "A full-featured e-commerce platform with admin and user dashboards, product management, shopping cart, order processing, secure authentication, and online payments. Includes cloud-based image storage and background tasks.",
     gradient: "linear-gradient(135deg, #6366f1, #22d3ee)",
-    icon: "🛒",
+    icon: <ShoppingCart size={24} />,
     github: "https://github.com/N-Viveharan/myProject7",
     featured: true,
   },
@@ -20,7 +22,7 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "MongoDB"],
     desc: "A modern blog platform with dynamic routing, server-side rendering for SEO optimization, post creation, editing, and responsive UI design.",
     gradient: "linear-gradient(135deg, #f472b6, #6366f1)",
-    icon: "📝",
+    icon: <FileText size={24} />,
     github: "https://github.com/N-Viveharan/myProject-4",
     featured: false,
   },
@@ -31,7 +33,7 @@ const projects = [
     tags: ["VS Code Extension API", "Chart.js", "TensorFlow Lite", "scikit-learn", "Git"],
     desc: "A developer productivity extension that tracks coding activity, analyzes behavior patterns, and generates visual reports with AI-based insights, dashboards, and team collaboration features.",
     gradient: "linear-gradient(135deg, #22c55e, #6366f1)",
-    icon: "💻",
+    icon: <Code size={24} />,
     github: "https://github.com/CodeFlow-SUSL/codeflow-ai-susl",
     featured: true,
   },
@@ -42,7 +44,7 @@ const projects = [
     tags: ["Next.js", "Express.js", "MongoDB", "Stripe", "Clerk"],
     desc: "A blog-based platform with user authentication, post creation, editing, and content management features with responsive UI and optimized performance.",
     gradient: "linear-gradient(135deg, #f59e0b, #ef4444)",
-    icon: "📰",
+    icon: <Newspaper size={24} />,
     github: "https://github.com/N-Viveharan/myProject-3",
     featured: false,
   }
@@ -119,15 +121,7 @@ export default function Projects() {
                     rel="noreferrer"
                     className="project-link"
                   >
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      style={{ marginRight: "6px", verticalAlign: "middle" }}
-                    >
-                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-                    </svg>
+                    <Github size={16} style={{ marginRight: "6px", verticalAlign: "middle" }} />
                     Code
                   </a>
                 </div>

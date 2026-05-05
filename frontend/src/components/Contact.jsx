@@ -1,21 +1,23 @@
 import { useState } from "react";
+import { Mail, ArrowRight, Send } from "lucide-react";
+import { Github, Linkedin } from "./BrandIcons";
 import "./Contact.css";
 
 const contactInfo = [
   {
-    icon: "✉️",
+    icon: <Mail size={24} />,
     label: "Email",
     value: "nagalingamviveharan2001@gmail.com",
     href: "nagalingamviveharan2001@gmail.com",
   },
   {
-    icon: "💼",
+    icon: <Linkedin size={24} />,
     label: "LinkedIn",
     value: "Nagalingam Viveharan",
     href: "https://www.linkedin.com/in/nagalingam-viveharan-56ba51320/",
   },
   {
-    icon: "🐙",
+    icon: <Github size={24} />,
     label: "GitHub",
     value: "github.com/N-Viveharan",
     href: "https://github.com/N-Viveharan",
@@ -73,7 +75,7 @@ export default function Contact() {
                     <span className="contact-card-label">{label}</span>
                     <span className="contact-card-value">{value}</span>
                   </div>
-                  <svg className="contact-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  <ArrowRight size={16} strokeWidth={2.5} className="contact-card-arrow" />
                 </a>
               ))}
             </div>
@@ -153,7 +155,7 @@ export default function Contact() {
                   </>
                 ) : (
                   <>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+                    <Send size={16} strokeWidth={2.5} />
                     Send Message
                   </>
                 )}
