@@ -1,7 +1,7 @@
 import "./Home.css";
-import vive from "../assets/vive2.png";
+import profilePic from "../assets/profile_new.jpg";
 import { ArrowRight, MessageSquare } from "lucide-react";
-const techBadges = ["MongoDB", "Express.js", "React.js", "Node.js","Next.js","JavaScript","HTML","CSS","Tailwind CSS"];
+const techBadges = ["MERN Stack", "Next.js", "React Native", "TypeScript", "Tailwind CSS"];
 
 export default function Home() {
   const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -21,13 +21,13 @@ export default function Home() {
           </div>
 
           <h1 className="home-title">
-            Hi, I'm <span className="gradient-text">Nagalingam Viveharan</span>
+            Hi, I'm <span className="gradient-text">Viveharan</span>
             <br />
             <span className="home-title-sub">Full Stack Developer</span>
           </h1>
 
           <p className="home-desc">
-            Passionate Full-Stack Developer with hands-on experience in building scalable web applications using modern technologies, focused on responsive design, secure APIs, and delivering efficient <em>full-stack solutions.</em>.
+            Passionate Full-Stack Developer with hands-on experience in building scalable web applications using modern technologies. I focus on responsive design, secure APIs, and delivering efficient <em>full-stack solutions.</em>
           </p>
 
           <div className="home-badges">
@@ -48,14 +48,15 @@ export default function Home() {
           </div>
 
           <div className="home-stats">
-           
-            <div className="stat-divider"></div>
             <div className="stat-item">
               <span className="stat-number">10+</span>
               <span className="stat-label">Projects Built</span>
             </div>
             <div className="stat-divider"></div>
-            
+            <div className="stat-item">
+              <span className="stat-number">2+</span>
+              <span className="stat-label">Years Experience</span>
+            </div>
           </div>
         </div>
 
@@ -63,41 +64,20 @@ export default function Home() {
           <div className="avatar-wrapper">
             <div className="avatar-ring avatar-ring-1"></div>
             <div className="avatar-ring avatar-ring-2"></div>
-            <div className="avatar-card">
-             <div
-  className="avatar-initials"
-  style={{
-    width: "200px",
-    height: "200px",
-    borderRadius: "50%",
-    overflow: "hidden",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  }}
->
-  <img
-    src={vive}
-    alt="profile"
-    style={{
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-      transform: "scale(1.1)", // 👈 zoom effect
-    }}
-  />
-</div>
+            
+            <div className="avatar-image-container">
+              <img src={profilePic} alt="Profile" className="avatar-img" />
               <div className="avatar-glow"></div>
             </div>
+            
             <div className="floating-chip chip-1">
               <span>⚡</span> Next.js
             </div>
             <div className="floating-chip chip-2">
-              <span>🍃</span> Express.js
+              <span>📱</span> React Native
             </div>
-            
             <div className="floating-chip chip-4">
-              <span>🔥</span> React.js
+              <span>🚀</span> MERN Stack
             </div>
           </div>
         </div>

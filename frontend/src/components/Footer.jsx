@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="footer-stack">
             <h4 className="footer-nav-title">Tech Stack</h4>
             <div className="stack-list">
-              {["MongoDB", "Express.js", "React.js", "Node.js", "Next.js", "TypeScript", "Docker", "Postman","JavaScript","Tailwind CSS","GitHub"].map((t) => (
+              {["MERN Stack", "Next.js", "React Native", "MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "Docker", "Postman","JavaScript","Tailwind CSS","GitHub"].map((t) => (
                 <span key={t} className="stack-tag">{t}</span>
               ))}
             </div>
